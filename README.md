@@ -15,6 +15,30 @@ This is a repository for recording assignments after taking the cs231n lecture.
 - [ ] inline question2
 - [ ] inline question3
 
+### Linear SVM
+
+- [ ] svm.ipynb
+  - [x] make dataset (data preprocessing)
+  - [x] gradient_check for debugging
+  - [x] get elapsed time (speed performance of classifier's training)
+  - [x] train using SGD
+  - [x] show loss plotting
+  - [x] get accuracy performance
+  - [x] decide hyper parameter combination of (learning rate, regularization strength)
+  - [x] plot the result
+  - [x] analyze trained weight
+- [ ] classifiers/linear_svm.py
+  - [x] svm_naive
+  - [x] svm_vectorized
+- [ ] classifiers/linear_classifier.py
+  - [x] train method - SGD implementation
+  - [x] loss method
+  - [x] predict method
+- [ ] gradient_check.py (only review)
+- [ ] inline question
+  - [ ] inline question1
+  - [ ] inline question2
+
 ### Softmax
 
 ## assignment2
