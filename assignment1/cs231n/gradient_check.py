@@ -113,7 +113,8 @@ def grad_check_sparse(f, x, analytic_grad, num_checks=10, h=1e-5):
     """
 
     for i in range(num_checks):
-        ix = tuple([randrange(m) for m in x.shape])
+        # 임의의 row와 임의의 column에 대해 (r, c)의 tuple을 구성해줌.
+        ix = tuple([randrange(m) for m in x.shape]) 
 
         oldval = x[ix]
         x[ix] = oldval + h  # increment by h
@@ -128,6 +129,6 @@ def grad_check_sparse(f, x, analytic_grad, num_checks=10, h=1e-5):
             abs(grad_numerical) + abs(grad_analytic)
         )
         print(
-            "numerical: %f analytic: %f, relative error: %e"
+            "numerical: %f analytic: %f, relative error: %f"
             % (grad_numerical, grad_analytic, rel_error)
         )
