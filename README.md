@@ -40,6 +40,14 @@ This is a repository for recording assignments after taking the cs231n lecture.
   - [ ] inline question2
 
 ### Softmax
+- [ ] softmax.ipynb
+  - [x] hyperparameter tunning
+- [ ] softmax.py
+  - [x] softmax_naive
+  - [x] softmax_vectorized
+- [ ] inline questions
+  - [x] inline question1
+  - [x] inline question2
 
 ## assignment2
 
